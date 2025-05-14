@@ -11,7 +11,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import Chatbot from "./components/chatbot/chatbot";
 
 function App() {
 
@@ -78,6 +78,7 @@ function App() {
       <ToastContainer />
       <Contact />
       <Footer />
+      <Chatbot />
       
       
       <div>
