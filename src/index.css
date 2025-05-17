@@ -4,8 +4,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.calendly-badge-widget {
+  right: auto !important;    /* Remove right positioning */
+  left: 20px !important;     /* Set left positioning */
+  bottom: 20px !important;   /* Keep bottom positioning */
+}
 
-
+.calendly-badge-widget a[href*="calendly.com"] {
+  display: none !important;
+}
 
 
 
