@@ -82,8 +82,8 @@ function App() {
       
       
       <div>
-      <a href="https://wa.me/9133822302" id="whatsappLink" target="_blank" rel="noopener noreferrer">
-        <div id="whatsappIcon" className="fixed bottom-[90px] right-[20px] cursor-grab text-[3rem] text-[#25d366] bg-transparent p-[10px] rounded-full w-[50px] h-[50px] flex justify-center items-center text-center z-[100]">
+      <a href="https://wa.me/9133822302?text=Hi%20Venkat! 👋" id="whatsappLink" target="_blank" rel="noopener noreferrer">
+        <div id="whatsappIcon" className="fixed bottom-[120px] right-[30px] cursor-grab text-[3rem] text-[#25d366] bg-transparent p-[10px] rounded-full w-[50px] h-[50px] flex justify-center items-center text-center z-[100]">
           <FaWhatsapp size={50} />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[60px] h-[60px] bg-[#25d366] rounded-full z-[-1] animate-pulse"></div>
         </div>
